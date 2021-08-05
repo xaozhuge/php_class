@@ -1,7 +1,7 @@
 <?php
 	//根据文字生成图片
- 	function textImage(){
-    	//字体大小
+	function textImage(){
+		//字体大小
 		$size  = 80;
 		//字体类型
 		$font  = "font/PingFangMedium.ttf";
@@ -24,4 +24,4 @@
 		}else{
 			imagepng($img);
 		}
-    }
+	}
